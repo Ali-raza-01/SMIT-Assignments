@@ -1,0 +1,42 @@
+.header1,li{
+   
+    display: inline-block;
+    padding-right:  45px;
+    margin:  auto;
+    
+} 
+.space{ 
+    display: inline-block;
+    padding-right: 300px;
+   
+} 
+.main{
+padding: 80px 20px 30px 120px;
+background-image: url(./assets/background.png);
+background-repeat: no-repeat;
+background-position: 75%;
+ 
+}
+.main>h1{
+    font-size: 60px;
+    color:#37A000;
+}
+p{
+    color: #494949;
+    font-weight: bold;
+    font-size: x-large;
+}
+select,li{
+    font-weight: 500;
+    border-style: hidden;
+}
+button{
+    border-style: hidden;
+    background-color: #37A000;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 15px;
+    width: 150px;
+    cursor: pointer;
+    font-size: large;
+}
