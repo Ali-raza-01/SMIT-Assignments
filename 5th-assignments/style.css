@@ -1,0 +1,52 @@
+
+.header {
+    text-align: center;
+    padding: 5%;
+    font-size: 30px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.headings{
+    background-color: burlywood;
+    font-size: 50px;
+    font-family: serif;
+
+
+}
+
+.A-for{
+    font-size: 35px;
+    height: 150px;
+    width: 50%;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.top{
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: burlywood;
+    padding: 20px;
+    margin: 100px;
+    width: 100px;
+    
+}
+.footer{
+    
+    background-color: cornflowerblue;
+    border: 2px solid;
+    margin: 50px;
+    padding: 30px;
+    height: 250px;
+    width: 250px ;
+    text-align:center ;
+
+}
+input{
+    padding: 20px;
+    border-radius: 5px;
+
+}
