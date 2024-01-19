@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #F0F2F5;
+
+}
+
+div.main{
+    width: 65%;
+    min-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+div.left{
+    width: 55%;
+    min-width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 20px;
+}
+div.left h1{
+    font-size: 60px;
+    color: #3b5998;
+}
+div.left p{
+    font-size: 22px;
+}
+div.right{
+    width: 45%;
+    min-width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 15px;
+}
+div.right form{
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.right input[type="text"], input[type="password"]{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 7%);
+    margin: 5px 0px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 15px;
+    border: 1.5px solid lightgray;
+    
+}
+div.right input.right_button{
+    width: 100%;
+    font-size: 20px;
+    height: 45px;
+    margin: 5px 0px;
+    border-radius: 6px;
+    font-weight: bold;
+    background-color: #3b5998;
+    color: white;
+    cursor: pointer;
+}
+div.right a{
+    display: flex;
+    margin: 5px 0px;
+    line-height: 40px;
+    text-decoration: none;
+}
+div.right span{
+    width: 100%;
+    border-bottom: 1.5px solid lightgray;
+    margin: 10px 0px;
+}
+div.right input.create{
+    font-size: 17px;
+    line-height: 45px;
+    margin-bottom: 7px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    padding: 0px 20px;
+    margin: 5px 0px;
+    background-color: rgb(41, 175, 41);
+    color: white;
+    cursor: pointer;
+}
+div.right > p{
+    font-size: 13px;
+    margin: 20px auto;
+}
