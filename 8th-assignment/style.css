@@ -1,0 +1,246 @@
+body{
+    background-image: url(./assets/glowing-satellite-orbits-planet-star-filled-galaxy-generated-by-ai.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.parent,span{
+    font-size: larger;
+    color: black;
+    font-variant: small-caps;
+    
+}
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+    height: 200px;
+    width: 300px ;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    
+    
+    
+
+}
+.child1{
+
+
+    display: flex; 
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+ 
+    background-color: aqua;
+}
+.child2{
+
+
+   
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    
+    background-color: brown;
+}
+.child3{
+
+
+    
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    
+    background-color: black;
+}
+.child4{
+
+
+    
+    
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    
+    background-color: cadetblue;
+}
+.child5{
+
+
+    
+    
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    
+    background-color: chocolate;
+}
+.child6{
+
+
+    
+    
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+   
+    background-color:chartreuse;
+}
+.child7{
+
+
+     
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    
+    background-color: crimson;
+}
+.child8{
+
+
+    
+     
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    
+    background-color:darkgoldenrod;
+}
+.child9{
+
+
+    
+    
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    
+    background-color:darkred;
+}
+.child10{
+
+
+    
+    
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+   
+    background-color:darkslateblue;
+}
+.child11{
+
+
+   
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+   
+    background-color:firebrick;
+}
+.child12{
+
+
+    
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+   
+    background-color:hotpink;
+}
+.child13{
+
+
+    
+    
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+   
+    background-color: dimgrey;
+}
+.child14{
+
+
+    
+    
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+   
+    background-color: lightblue;
+}
+.child15{
+
+
+    
+    
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    
+    background-color: chocolate;
+}
+.child16{
+
+
+     
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    
+    background-color: magenta;
+}
+.child17{
+
+
+    
+    
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+   
+    background-color: midnightblue;
+}
+.child18{
+
+
+    
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    
+    background-color: coral;
+}
+.child19{
+
+
+    
+    
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    
+    background-color: dodgerblue;
+}
+.child20{
+
+
+     
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+   
+    background-color:indigo;
+}
+span{
+    font-size: larger;
+}
