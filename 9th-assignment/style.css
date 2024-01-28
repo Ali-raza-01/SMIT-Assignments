@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.grandp{
+
+    height: 100%;
+    min-height: 40rem ;
+    width: 100% ;
+     background-image: linear-gradient(to right, #353649, #f79fd9);
+   
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 70px 0px 0px 0px;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+p{
+    font-size: 1rem ;
+    margin: auto;
+    padding: 30px;
+    max-width: 500px;
+   text-align: center;
+    color: white;
+}
+.parent{
+    font-size: 1.5rem;
+    color: white;
+    margin: auto;
+    min-height: 300px;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+} 
+.chaild{
+    line-height: 50px;
+   padding-top: 30px;
+   background-image: linear-gradient(to right, #3a1c71,  #d76d77, #ffaf7b);
+    height: 300px;
+    margin: 20px;
+    box-shadow: 0 0 20px #2c2c2c;
+    text-align: center;
+    flex: 1 1 200px;
+    justify-content: center;
+    
+}
+.chaild:first-child{
+    background-image: linear-gradient(to right, #cc2b5e, #753a88);
+    
+}
+.chaild:last-child{
+    background-image: linear-gradient(to right, #cc2b5e, #753a88);
+}
+.sp{
+    font-size: 3rem;
+    color: white;
+}
+button{
+    font-size: medium;
+    margin-top: 70px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    border-style: hidden;
+}
+button:hover{
+    
+    transition: 0.3s;
+    padding: 15px;
+    width: 180px;
+    background-color: chocolate;
+    cursor: pointer;
+    font-size: large;
+}
