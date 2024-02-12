@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.nav-bar {
+
+    height: 60px;
+    color: rgb(0, 0, 0);
+    place-items: center;
+
+}
+
+.logo-box i {
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+.logo-box {
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.sec-box {
+
+    text-align: center;
+
+}
+
+.third-box {
+    text-align: center;
+}
+
+.third-box i {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.main-content {
+
+    min-height: 330px;
+
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+
+
+
+}
+
+.brad-crump {
+
+    min-height: 40px;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    font-size: 0.90rem;
+
+}
+
+.image-boxes {
+    height: 200px;
+
+}
+
+#first {
+    background-image: url(./assets/first.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#second {
+    background-image: url(./assets/second.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+#third {
+    background-image: url(./assets/third.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#fourth {
+    background-image: url(./assets/fourth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#five {
+    background-image: url(./assets/fifth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#six {
+    background-image: url(./assets/sixth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#seven {
+    background-image: url(./assets/seventh.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#eight {
+    background-image: url(./assets/eight.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#nine {
+    background-image: url(./assets/nine.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#ten {
+    background-image: url(./assets/tenth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#eleven {
+    background-image: url(./assets/eleven.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#twelev {
+    background-image: url(./assets/twelve.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#thirteen {
+    background-image: url(./assets/thirteen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#fourteen {
+    background-image: url(./assets/fourteen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#fifteen {
+    background-image: url(./assets/fifteen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#sixteen {
+    background-image: url(./assets/sixteen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#seventeen {
+    background-image: url(./assets/seventeen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#eighteen {
+    background-image: url(./assets/eighteen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#ninteen {
+    background-image: url(./assets/ninteen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#twenty {
+    background-image: url(./assets/twenty.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.effect:hover {
+    cursor: pointer;
+    border-bottom: 3px rgb(22, 255, 22) solid;
+
+}
+
+/* footer */
+
+.footer {
+    height: 100px;
+    background-color: #212529;
+    text-align: center;
+    color: white;
+}
+
+.footer-1 {
+    display: grid;
+    font-size: 1.5rem;
+
+}
+
+.footer-1 i {
+    padding: 10px;
+}
+
+.footer-3 i {
+    margin-top: 30px;
+
+    font-size: 1.2rem;
+    padding: 15px 10px auto 0px;
+}
+
+.footer-2 {
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+    font-size: 0.90rem;
+}
+
+
+/* media quries */
+
+
+@media screen and (max-width: 770px) {
+    .col-md-1 {
+        display: none;
+
+    }
+
+    .footer {
+        height: 170px;
+    }
+
+    .footer-3 i {
+        margin-top: 10px;
+    }
+
+    .footer-2 {
+        margin-top: 5px;
+    }
+
+}
