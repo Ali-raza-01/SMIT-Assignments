@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 251, 251);
+    background-color: #292828;
+    height: 45px;
+    width: 100%;
+    position: fixed;
+
+}
+
+   
+.fa-apple{
+    font-size: 1.2rem;
+}
+.nav-ops ul{
+   color: rgb(189, 189, 189);
+    font-size: 0.90rem;
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    justify-content: space-evenly;
+
+}
+.nav-ops{
+    width: 60%;
+}
+
+
+.hero{
+    background-image: url(./assets/hero.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.hero-2{
+    background-image: url(./assets/hero-second.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.hero-3{
+    background-image: url(./assets/hero-third.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+}
+.main-content{
+    gap: 10px;
+}
+.mini-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 100%;
+ 
+   
+   
+}
+.mini-box{
+
+  
+    min-width: 490px;
+    max-width: 510px;
+    height: 600px;
+   
+}
+.slider-box{
+   margin: 0px auto;
+    background-color: red;
+   
+}
+
+.footer-apple{
+   margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    font-size: 0.90rem;
+    line-height: 20px;
+}
+.footer-items{
+    flex-basis: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.foot-1{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 770px){
+    .options{
+        display: none;
+    }
+    .apple-icon {
+        width: 500px;
+        
+       
+       
+    }
+    .nav-ops ul i{
+        margin-top: 20px;
+    }
+    .bar-icon{
+        font-size: medium;
+       
+    }
+    .mini-box{
+   min-width: 200px;
+
+    }
+    .hero{
+        height: 500px;
+       
+       
+    }
+    .hero-2{
+        height: 500px;
+    }
+    .hero-3{
+        height: 500px;
+    }
+
+   
+   
+} 
+
+@media screen and (max-width: 1024px){
+    .bar-icon{
+        display: none;
+        
+    }
+
+    .nav-ops ul{
+        gap: 20px;
+    }
+    .mini-box{
+        
+        max-width: 500px;
+        min-width: 350px;
+    
+        }
+
+
+
+}
+
+@media screen and (max-width: 425px){
+    .options{
+        display: none;
+    }
+    .apple-icon {
+        width: 230px;
+       
+       
+    }
+    .nav-ops ul i{
+        margin-top: 20px;
+    }
+    .bar-icon{
+        font-size: medium;
+    }
+    .mini-box{
+    min-width: 370px;
+    max-width: 510px;
+
+    }
+    .height{
+        height: 250px;
+        width: 250px;
+    }
+    .hide p{
+        display: none;
+    }
+      
+}
