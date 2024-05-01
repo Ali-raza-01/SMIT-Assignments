@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2f363e;
+}
+#time{
+    display: flex;
+    gap: 5rem;
+    color: #fff;
+} 
+#time .circle{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#time .circle svg{
+position: relative;
+height: 150px;
+width: 150px;
+transform: rotate(270deg);
+}
+
+#time .circle svg circle{
+    height: 100%;
+    width: 100%;
+    fill: transparent;
+    stroke: #191919;
+    stroke-width: 8;
+    transform: translate(5px,5px);
+}
+
+#time .circle svg circle:nth-child(2){
+    stroke: var(--clr);
+    stroke-dasharray: 440;
+}
+
+#time div{
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+#time .amPm{
+    position: relative;
+    font: 1.5rem;
+    transform: translateX(-20px);
+}
+.dots{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dots::before{
+    top: -3px;
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background: var(--clr);
+    border-radius: 50%;
+    box-shadow: 0 0 20px var(--clr),
+    0 0 60px var(--clr);
+
+}
+.month{
+    color: white;
+    top: 70%;
+    position: absolute;
+    font-size: 1.5rem;
+}
+.intro{
+    color: white;
+    top:80%;
+    position: absolute;
+    font-size: 1.5rem;
+
+}
