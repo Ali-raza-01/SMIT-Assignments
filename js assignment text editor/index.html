@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <textarea id="textArea" rows="10"></textarea>
+        <div class="options">
+            <select id="fontFamily">
+                <option value="Arial">Arial</option>
+                <option value="Verdana">Verdana</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <!-- Add more font options as needed -->
+            </select>
+            <select id="fontSize">
+                <option value="12px">12</option>
+                <option value="14px">14</option>
+                <option value="16px">16</option>
+                <!-- Add more font size options as needed -->
+            </select>
+            <button onclick="makeBold()">Bold</button>
+            <button onclick="makeItalic()">Italic</button>
+            <button onclick="justify('left')">Left</button>
+            <button onclick="justify('center')">Center</button>
+            <button onclick="justify('right')">Right</button>
+            <button onclick="justify('justify')">Justify</button>
+        </div>
+        <h5>Text Editor Made by Ali raza</h5>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

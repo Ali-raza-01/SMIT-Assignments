@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #333; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.5); 
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555; 
+    border-radius: 5px;
+    resize: vertical;
+    background-color: #444; 
+    color: #fff;
+}
+
+.options select, .options button {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff7700; 
+    color: #fff; 
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.options select:hover, .options button:hover {
+    background-color: #ff9900; 
+    transform: scale(1.05);
+}
+
+.options select {
+    width: 100px;
+}
+
+.options button {
+    background-color: #222; 
+}
+
+.options button:hover {
+    background-color: #444;
+}
+h5{
+    letter-spacing: 4px;
+   
+}
