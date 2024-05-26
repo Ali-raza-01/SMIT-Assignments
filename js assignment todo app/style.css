@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     background-image: url(./bg.jpg);
+    background-size: cover; 
+
+}
+.container{
+    margin-top: 100px;
+    text-align: center;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    min-height: 500px;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #58474a;
+    backdrop-filter: blur(20px);
+    box-shadow: inset 5px 5px 15px black;
+}
+input{
+    margin-top: 20px;
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #58474a;
+    color: white;
+    box-shadow: inset 3px 2px 13px black;
+   
+    
+}
+.btn{
+    width: 170px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    
+    margin-top: 20px;
+    letter-spacing: 3px;
+    color: white;
+}
+ul{
+    text-align: center;
+    list-style: lower-roman;
+    color: white;
+  
+
+}
+.btnMain{
+    letter-spacing: 2px;
+    padding: 3px;
+    border-radius: 8px;
+    background: #151515;
+    color:white;
+    cursor: pointer;
+    margin-bottom: 20px;
+ 
+}
+.list_item{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 3px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    background-color:  #151515;
+    color: white;
+ 
+}
+span{
+    letter-spacing: 2px;
+    color: white;
+    text-transform: capitalize;   
+}
+input::placeholder{
+    color: white;
+    letter-spacing: 2px;
+}
