@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .bg-purple-500 {
+      background-color: #6b46c1;
+    }
+
+    .hover\:bg-purple-700:hover {
+      background-color: #553c9a;
+    }
+
+    .bg-red-500 {
+      background-color: #f56565;
+    }
+
+    .hover\:bg-red-700:hover {
+      background-color: #c53030;
+    }
+
+    .rounded {
+      border-radius: 0.375rem;
+    }
+
+    .text-white {
+      color: #fff;
+    }
+    .creadit{
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+        transition: 1.2s;
+        text-transform: uppercase;
+    }
+    .creadit:hover{
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        font-weight: 700;
+       
+    }
+    .ali{
+        font-size: 40px;
+        font-family: sans-serif;
+        
+    }
+    .head{
+        font-size: 20px
+    }
+    .name:hover{
+        color: #553c9a;
+    }
+    
+  </style>
+</head>
+<body>
+    
+  <div class="container mx-auto px-5 py-24">
+    <h5 class="creadit head">Cards Using For Each Loop</h5>
+    <h1 class="creadit ali">By <span class="name">Ali</span> Raza</h1>
+    <section class="text-gray-600 body-font">
+      <div class="container mx-auto">
+        <div id="list" class="flex flex-wrap -m-4"></div>
+      </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
