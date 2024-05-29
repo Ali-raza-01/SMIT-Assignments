@@ -27,7 +27,7 @@ var items = [
   
 ];
 
-// Function to create cards
+
 function createCards() {
   list.innerHTML = "";
   items.forEach(function (data, ind) {
@@ -52,22 +52,21 @@ function createCards() {
   });
 }
 
-// Function to update the card description
+
 function updateDesc(ele) {
   var index = ele.parentElement.parentElement.id;
   var newDesc = prompt("Enter new description:", items[index].desc);
   if (newDesc !== null) {
     items[index].desc = newDesc;
-    createCards(); // Recreate the cards to reflect the updated description
+    createCards(); 
   }
 }
 
-// Function to remove a card
+
 function removeCard(ele) {
   var index = ele.parentElement.parentElement.id;
-  delete items[index]; // Remove the item from the array
-  createCards(); // Recreate the cards to reflect the removed item
+  delete items[index]; 
+  createCards(); 
 }
 
-// Initial creation of cards
 createCards();
