@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo's using localStorage</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="login_container">
+        <input type="text" id="email" placeholder="enter your email">
+        <input type="text" id="password" placeholder="enter your password">
+        <button onclick="loginUser()">login</button>
+
+    </div>
+
+    <div id="home_container">
+        <div>
+            <h1>welcom to our site</h1>
+            <button onclick="logoutUser()">logout</button>
+            <p id="displayEmail"></p>
+        </div>
+
+        <div>
+            <textarea id="notes">Add your todos</textarea>
+            <button onclick="AddTodos()">submit</button>
+
+        </div>
+        <ul id="list">
+          
+        </ul>
+
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  /* Animations (generic) */
+  .animate__animated {
+    animation-duration: 0.3s; /* Shorter animation duration for a more subtle effect */
+    animation-fill-mode: forwards;
+  }
+  
+  /* Login Container */
+  #login_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff; /* White background for a clean look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle border for separation */
+  }
+  
+  #login_container input {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px; /* Slightly rounded corners for a professional touch */
+    background-color: #fff; /* White input fields */
+    margin: 15px;
+    font-size: 16px; /* Clear and readable font size */
+    transition: all 0.2s ease-in-out; /* Smooth transitions */
+  }
+  
+  #login_container input:focus {
+    border-color: #3498db; /* Change border color on focus (blue) */
+    outline: none; /* Remove default outline */
+  }
+  
+  #login_container button {
+    padding: 12px 25px;
+    background-color: #3498db; /* Blue color for login button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Consistent font size */
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #login_container button:hover {
+    background-color: #2980b9; /* Darken blue on hover */
+  }
+  
+  /* Home Container */
+  #home_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  #home_container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #3498db; /* Blue heading text */
+    animation: fadeIn 0.3s ease-in-out forwards; /* Subtle fade in animation */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #home_container button {
+    padding: 10px 20px;
+    background-color: #e74c3c; /* Red color for logout button (adjusted for better contrast) */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 10px;
+  }
+  
+  #home_container button:hover {
+    background-color: #c0392b; /* Darken red on hover */
+  }
+  
+  #displayEmail {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #3498db; /* Blue text */
+  }
+  
+  /* Notes and List */
+  #notes {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-height: 100px;
+    resize: vertical;
+    background-color: #fff; /* White background for textarea */
+    font-size: 16px; /* Consistent font size */
+    transition: all 0.2s ease-in-out;
+    /* Make it full width and centered */
+    width: 400px;
+    margin: 0 auto; /* Center horizontally */
+  }
+  
